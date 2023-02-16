@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in • Instagram</title>
+    <style>
+        body {
+            background-color: whitesmoke;
+        }
+        #main {
+            display: block;
+            width: 350px;
+            height: 410px;
+            margin-left: 610px;
+            margin-top: 30px;
+            border: 1px solid #c9c4c4;
+            background-color: #FFFFFF;
+            box-sizing: border-box;
+        }
+        #main2 {
+            display: block;
+            width: 350px;
+            height: 60px;
+            margin-left: 610px;
+            margin-top: 10px;
+            border: 1px solid #c9c4c4;
+            background-color: #FFFFFF;
+            box-sizing: border-box;
+        }
+        h1 {
+            text-align: center;
+            font-family: 'Baloo Bhai', cursive;
+            margin-bottom: 30px;
+            font-size: 45px;
+            cursor: pointer;
+        }
+        .in {
+            padding: 5px;
+            margin-left: 35px;
+            border-radius: 4px;
+        }
+        #usr {
+            display: block;
+            width: 250px;
+            border: 1px solid #c9c4c4;
+            margin-bottom: 5px;
+            padding: 10px 10px;
+            margin-right: 2px;
+            background-color: whitesmoke;
+            font-size: 12px;
+        }
+        #paswd {
+            font-size: 12px;
+            display: block;
+            width: 250px;
+            border: 1px solid #c9c4c4;
+            margin-bottom: 5px;
+            padding: 10px 10px;
+            background-color: whitesmoke;
+        }
+        .btn{
+            border: none;
+            color: #FFFFFF;
+            font-style: bold;
+            background-color: rgb(198, 222, 252);
+            margin-top: 15px;
+            width: 274px;
+            border-radius: 4px;
+            padding: 10px 10px;
+        }
+        .btn:hover {
+            border: none;
+            color: #FFFFFF;
+            font-weight: bold;
+            background-color: rgb(75, 139, 219);
+            margin-top: 15px;
+            width: 274px;
+            cursor: pointer;
+            border-radius: 4px;
+            padding: 10px 10px;
+        }
+        #or {
+            color: #847f7f;
+            margin-left: 160px;
+        }
+        header {
+            color: rgb(56, 81, 148);
+            margin-left: 105px;
+            cursor: pointer;
+        }
+        h5 {
+            color: rgb(37, 60, 125);
+            margin-left: 102px;
+            font-style: normal;
+            cursor: pointer;
+        }
+        #d {
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 55px;
+            cursor: pointer;
+        }
+        footer {
+            float: right;
+            margin-right: 90px;
+        }
+        #gta {
+            display: block;
+            width: 350px;
+            margin-left: 740px;
+            margin-top: 20px;
+            cursor: pointer;
+            box-sizing: border-box;
+        }
+        #p1{
+            display: block;
+            width: 900px;
+            margin-bottom: 5px;
+            padding: 10px 10px;
+            color: #847f7f;
+            margin-right: 2px;
+            font-size: 13px;
+            margin-left: 360px;
+            margin-top: 80px;
+            cursor: pointer;
+        }
+        #p2{
+            display: block;
+            width: 900px;
+            margin-bottom: 5px;
+            padding: 10px 10px;
+            color: #847f7f;
+            margin-right: 2px;
+            font-size: 13px;
+            margin-left: 640px;
+            cursor: pointer;
+            margin-top: 8px;
+        }
+        #lang{
+            border: none;
+            background-color: whitesmoke;
+            color: #847f7f;
+            cursor: pointer;
+        }
+        #ig{
+            margin-left: 640px;
+            display: block;
+            width: 280px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+        #fb{
+            margin-left: 72px;
+            margin-right: 0px;
+            display: block;
+            width: 20px;
+            position: relative;
+            top: 18px;
+            left: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <h1>Instagram</h1>
+        <div class="in">
+            <input type="type" id="usr" placeholder="Phone number, username or email address">
+            <input type="type" id="paswd" placeholder="Password">
+            <button class="btn">Log in</button>
+        </div>
+        <br>
+        <span id="or">OR</span>
+        <img src="fb.png" id="fb">
+        <header>
+            <b>Log in with Facebook</b>
+        </header>
+        <h5>Forgotten your password?</h5>
+    </div>
+    <div id="main2">
+        <div id="d">Don't have an account?<footer style="color: rgb(9, 111, 235);"><b>Sign up</b></footer>
+        </div>
+    </div>
+    <span id="gta">Get the app.</span>
+    <img src="ig.png" id="ig">
+    <p id="p1">Meta &nbsp;&nbsp;&nbsp; About &nbsp;&nbsp;&nbsp; Blog &nbsp;&nbsp;&nbsp; Jobs &nbsp;&nbsp;&nbsp; Help
+        &nbsp;&nbsp;&nbsp; API &nbsp;&nbsp;&nbsp; Privacy &nbsp;&nbsp;&nbsp; Terms &nbsp;&nbsp;&nbsp; Top accounts
+        &nbsp;&nbsp;&nbsp; Hashtags &nbsp;&nbsp;&nbsp; Locations &nbsp;&nbsp;&nbsp; Instagram Lite &nbsp;&nbsp;&nbsp;
+        Contact uploading and non-users</p>
+    <p id="p2"><select name="Language" id="lang" default="English (UK)">
+        <option value="English">English (UK)</option>
+        <option value="Hindi">हिन्दी</option>
+        <option value="Japnese">日本</option>
+      </select>&nbsp;&nbsp; &copy; 2022 Instagram from Meta</p>
+</body>
+</html>
